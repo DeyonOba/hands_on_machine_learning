@@ -26,7 +26,7 @@ def main():
             
             with ZipFile(FILE_PATH, "r") as f:
                 f.extractall(DATA_DIR_PATH)
-            f.close()
+
     except:
         print(Error_Message)
 
